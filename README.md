@@ -8,3 +8,13 @@
   * Check and use useEffects when use if()/ else and normal setState changes.  
 
 # 03. props should need to place with simple letters as first letter
+
+# 04. When error comes while pushing 
+"Total 96 (delta 61), reused 0 (delta 0), pack-reused 0
+error: RPC failed; curl 56 HTTP/2 stream 7 was reset
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly"
+#  to do 
+* git config --global http.version HTTP/1.1, push, then git config --global http.version HTTP/2
+# Follow this 
+link - https://github.com/curl/curl/issues/11353#issuecomment-1687169241
