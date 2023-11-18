@@ -14,7 +14,14 @@
 error: RPC failed; curl 56 HTTP/2 stream 7 was reset
 send-pack: unexpected disconnect while reading sideband packet
 fatal: the remote end hung up unexpectedly"
-#  to do 
+# to do 
 * git config --global http.version HTTP/1.1, push, then git config --global http.version HTTP/2
 # Follow this 
 link - https://github.com/curl/curl/issues/11353#issuecomment-1687169241
+# 2023.11.18
+# Error: [Reanimated] `valueUnpacker` is not a worklet, js engine: hermes
+ module.exports = {
+  presets: ['module:metro-react-native-babel-preset'],
+  plugins: ['react-native-reanimated/plugin'],
+}; 
+* link - https://github.com/georstat/react-native-image-cache/issues/67#issuecomment-1785035304
