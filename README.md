@@ -25,3 +25,7 @@ link - https://github.com/curl/curl/issues/11353#issuecomment-1687169241
   plugins: ['react-native-reanimated/plugin'],
 }; 
 * link - https://github.com/georstat/react-native-image-cache/issues/67#issuecomment-1785035304
+# 2023.11.21
+# Error - VirtualizedLists should never be nested inside plain ScrollViews with the same orientation because it can break windowing and other functionality - use another VirtualizedList-backed container instead.
+   solution - npm install react-native-virtualized-view --save
+              import { ScrollView } from 'react-native-virtualized-view';
